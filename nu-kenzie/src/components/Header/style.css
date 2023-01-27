@@ -1,0 +1,23 @@
+header{
+    margin: 0px 15px 0px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 0px;
+}
+
+header > button{
+    padding: 16px;
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+
+}
+
+@media (min-width: 769px){
+    header{
+        margin: 0px 100px 50px 100px;
+    }
+}

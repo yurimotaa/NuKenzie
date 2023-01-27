@@ -1,0 +1,24 @@
+.totalmoney__container{
+    margin: 30px 15px 0px 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+
+    padding: 30px 20px;
+}
+
+.totalmoney__container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-weight: bold;
+}
+
+.totalmoney__container > div > span{
+    color: #FD377E;
+}
