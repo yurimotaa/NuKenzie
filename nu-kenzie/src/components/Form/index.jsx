@@ -1,7 +1,6 @@
 import '../Form/style.css'
 import { useState } from 'react'
-import { v4 as uuid } from 'uuid'
-import { Totalmoney } from '../Totalmoney'
+import { v4 as uuidv4 } from 'uuid'
 
 export function Form({setCards}){
     function handleSubmit(event){
@@ -28,7 +27,7 @@ export function Form({setCards}){
     const [description, setDescription] = useState('')
     const [value, setValue] = useState(+0)
     const [type, setType] = useState('entrada')
-    const id = uuid()
+    const id = uuidv4()
    
 
     return(
